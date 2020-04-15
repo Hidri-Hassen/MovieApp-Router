@@ -9,15 +9,10 @@ const AppRouter = () => {
         <Router>
 <Switch>
 
-
 <Route path="/" exact component={movieApp}  />
-<Route ath="/readMore/:id" exact component={readMore}  />
-
-
+<Route path="/readMore/:id" exact component={readMore}  />
 
 </Switch>
-
-
 
         </Router>
         </div>

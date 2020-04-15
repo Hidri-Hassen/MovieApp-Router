@@ -15,7 +15,7 @@ const MovieCard = ({ movie,deleteMovie }) => {
   return (
 
     <article className="card card--1">
-      <Link  className="link"  to={'/readMore/${movie.id}'}>Read More ...</Link>
+      <Link  className="link"  to={`/readMore/${movie.id}`}>Read More ...</Link>
           <div className="icon">
           <FontAwesomeIcon className="faicons" icon="trash" onClick={()=>{deleteMovie(movie.id)}}/>
           <AddModal cardInfo={movie}/>

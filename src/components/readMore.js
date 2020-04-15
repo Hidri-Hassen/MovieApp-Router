@@ -7,10 +7,15 @@ class ReadMore extends Component {
       if(!this.props.moviesData){
         return(<h1>Movie Not Found</h1>)
       }
-      const moviesData = this.props.moviesData.filter(el=>el.id === this.props.match.params.id)
+      const [moviesList] = this.props.moviesData.filter(movie=>movie.id === this.props.match.params.id)
+      
         return(
+          
+      
             <div>
-         <h1>{moviesData.description}</h1>
+              
+              <h1>Synopsis Of The Movie</h1>
+              <h3>{moviesList.description}</h3>
             </div>
         )
     }
