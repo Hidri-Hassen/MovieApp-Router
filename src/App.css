@@ -297,3 +297,32 @@ cursor: pointer;
   z-index: 3;
 
 }
+.router h1{
+  z-index: 1;
+  padding: 0px 225px;
+  top: 0;
+  right:0;
+  position: absolute;
+  display: flex;
+  
+}
+.router h3{
+  padding: 0px 90px;
+  top: 200px;
+  right:0;
+  width: 800px;
+  z-index: 1;
+  position: absolute;
+  display: flex;
+  justify-self: center;
+}
+.router img{
+  position: relative;
+  display: flex;
+  padding: 40px 40px;
+  top: 0;
+  left:0;
+  width: 550px;
+  height: 550px;
+  
+}

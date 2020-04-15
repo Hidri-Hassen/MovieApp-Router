@@ -81,10 +81,10 @@ class AddModal extends Component {
             isOpen={this.state.modalIsOpen}
             onRequestClose={this.closeModal}
           >
-            {/* <h2>Add A Movie</h2> */}
+           
             <form onSubmit={this.handelAddMovie}>
             <h2>Add A Movie</h2>
-            {/* <label>Add A Movie</label> */}
+         
               <label>Movie Name</label>
               <input
                onChange={this.handleAdd} 

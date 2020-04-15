@@ -4,6 +4,7 @@ import { connect } from "react-redux"
 class ReadMore extends Component {
 
     render(){
+    
       if(!this.props.moviesData){
         return(<h1>Movie Not Found</h1>)
       }
@@ -12,8 +13,8 @@ class ReadMore extends Component {
         return(
           
       
-            <div>
-              
+            <div className="router">
+              <img alt={moviesList.title} src= {moviesList.image} />
               <h1>Synopsis Of The Movie</h1>
               <h3>{moviesList.description}</h3>
             </div>
